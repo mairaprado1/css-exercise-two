@@ -1,8 +1,24 @@
 body {
   background-color: #ff0000;
-  color: #0000FF;
+  color: #f2f2f2;
 }
-
+{
+  fonte-size: 16px;
+}
+h1 {
+  font-size: 3em; /* 48px */
+  line-height: 1.2;
+}
+h3 {
+  font-size: 2em; /* 32px */
+  line-height: 1.2;
+}
+p {
+  font-size: 1.5em; /* 24px */
+}
+p class {
+  font-size: 12px;
+}
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
@@ -23,13 +39,14 @@ nav {
   width: 70%;
 }
 
-.left, .right {
+.left {
   float: left;
   width: 50%;
 }
 
 .right {
   float: right;
+  width: 50% /* coloquei isso*/
 }
 
 ul {
@@ -49,4 +66,8 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+a {
+  text-decoration: none;
+  color: #000000;
 }
